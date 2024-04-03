@@ -1,0 +1,117 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+/build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+*.DS_Store
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+**/xcuserdata/
+**/xcshareddata/swiftpm/Package.resolved
+.swiftpm/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# IntelliJ IDEA
+
+.idea/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# bundler
+vendor/
+
+# brew bundler
+# From readme:
+# As it can contain local environment information that varies between systems,
+# it's not worth committing to version control on multi-user repositories.
+Brewfile.lock.json
+
+# build/tests artifacts
+test-reports/
+report.html
+report.junit
+*.log
+*.xcresult
+coverage/
+*.app/
+*.app.zip
+
+# gitlab-ci-testing
+.gitlab-ci-local/
+
+# marathon
+marathon-results/
+
+# allure
+/allure-*
+xcresults
+
+# gitlab-pages
+public/
+
+# gitlab-env
+wbci.env
+
+# Tuist
+.spm-checkouts/
+**/Derived/
+**/Tuist/Dependencies/SwiftPackageManager/
+**/Tuist/Dependencies/graph.json
+
+**/*.xcodeproj
+**/*.xcworkspace
