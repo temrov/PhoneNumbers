@@ -113,5 +113,3 @@ wbci.env
 **/Tuist/Dependencies/SwiftPackageManager/
 **/Tuist/Dependencies/graph.json
 
-**/*.xcodeproj
-**/*.xcworkspace
